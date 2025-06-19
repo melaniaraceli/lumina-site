@@ -8,7 +8,7 @@
 
 ## 🌐 Enlace al sitio web (GitHub Pages)
 
-
+https://melaniaraceli.github.io/lumina-site/
 
 ## 📁 Estructura del Proyecto
 
@@ -42,12 +42,4 @@ LUMINA/
 - **Universidad:** Universidad César Vallejo  
 - **Año:** 2025
 
-## 🖥 Cómo ver el sitio localmente
 
-1. Abre la carpeta `LUMINA` en Visual Studio Code.
-2. Haz clic derecho sobre `index.html`.
-3. Selecciona **“Open with Live Server”** para ver el sitio en tu navegador.
-
-## Recomendación
-
-Asegúrate de colocar una imagen llamada `captura.png` en la carpeta `assets/` para que se vea la vista previa del sitio arriba ☝️. 
