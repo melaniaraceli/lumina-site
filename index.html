@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMINA | Moda Urbana Femenina</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <header class="header">
+             <h1 class="header__logo">LUMINA</h1>
+             <nav class="header__nav" aria-label="Menú principal">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="inicio" class="hero">
+              <article class="hero__content">
+                <h2 class="hero__title">Estilo con identidad</h2>
+                <p class="hero__text">Descubre la nueva colección urbana de LUMINA, donde la moda femenina se encuentra con la autenticidad.</p>
+              </article>
+            </section>
+
+            <section id="catalogo" class="catalogo">
+                <h2 class="catalogo__title">Nuestro Catálogo</h2>
+                <div class="catalogo__grid">
+                   <article class="producto"><figure><img src="assets/producto1.jpg" alt="Chaqueta oversize beige" title="Chaqueta oversize beige" /><figcaption>Chaqueta Oversize</figcaption></figure></article>
+                   <article class="producto"><figure><img src="assets/producto2.jpg" alt="Pantalón jogger gris" title="Pantalón jogger gris" /><figcaption>Pantalón Jogger</figcaption></figure></article>
+                   <article class="producto"><figure><img src="assets/producto3.jpg" alt="Blusa con estampado abstracto" title="Blusa con estampado abstracto" /><figcaption>Blusa Abstracta</figcaption></figure></article>
+                   <article class="producto"><figure><img src="assets/producto4.jpg"  alt="Vestido midi negro" title="Vestido midi negro" /><figcaption>Vestido Midi</figcaption></figure></article>
+                   <article class="producto"><figure><img src="assets/producto5.jpg" alt="Top de tiras color coral" title="Top de tiras color coral" /><figcaption>Top Coral</figcaption></figure></article>
+                   <article class="producto"><figure><img src="assets/producto6.jpg" alt="Falda plisada blanca" title="Falda plisada blanca" /><figcaption>Falda Plisada</figcaption></figure></article>
+                </div>
+            </section>
+
+            <section id="contacto" class="contacto">
+                <h2 class="contacto__title">Contáctanos</h2>
+                <form class="form" aria-label="Formulario de contacto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required />
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo" required />
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 LUMINA. Todos los derechos reservados.</p>
+        </footer>
+</body>
+</html> 

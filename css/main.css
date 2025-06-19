@@ -1,0 +1,23 @@
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero__content {
+  animation: fadeIn 1.5s ease-in;
+}
+
+.producto {
+  animation: fadeIn 1s ease-in;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus {
+  border-color: var(--color-acento);
+  outline: none;
+  transition: border 0.3s ease;
+}

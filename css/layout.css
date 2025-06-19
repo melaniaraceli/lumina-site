@@ -1,0 +1,27 @@
+body {
+  font-family: var(--fuente-principal);
+  font-size: var(--tam-base);
+  color: var(--color-primario);
+  background-color: var(--color-secundario);
+}
+
+.header, .footer {
+  background: var(--color-primario);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.header__nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.catalogo__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+}
